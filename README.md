@@ -1,2 +1,5 @@
-# antimath
-antimath io
+# antimath BETA
+taylor series expansion
+secant method
+gauss seidel
+
