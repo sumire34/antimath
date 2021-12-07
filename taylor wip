@@ -1,0 +1,371 @@
+<!DOCTYPE">
+<html>
+<head>
+<title></title>
+</head>
+<body>
+#include &lt;iostream&gt;<br>
+#include &lt;iomanip&gt;<br>
+using namespace std;<br>
+ <br>
+void Home(){ <br>
+cout&lt;&lt;&quot;\n                                                                   ....+@@@@#.:&ndash;=&ndash;.\n&quot;;                  <br>
+cout&lt;&lt;&quot;                                                  +#=          :+#%%%%%%%@@@%%%#=.\n&quot;;                      <br>
+cout&lt;&lt;&quot;                                                   =@#=      &ndash;@@@%%%%%%%%%%%@%*\n&quot;;                         <br>
+cout&lt;&lt;&quot;                                                    :#@*.   =@@@@%%%%%%%%%%%##.\n&quot;;                         <br>
+cout&lt;&lt;&quot;                                                      :#%#&ndash;*@@@@@@%%%%%%%%%%%##.\n&quot;;                        <br>
+cout&lt;&lt;&quot;                                                       .%@%@@*%%@@@%%%%%%%%%%%%=\n&quot;;                       <br>
+cout&lt;&lt;&quot;                                       :+:.             . :@@::&ndash;&ndash;+++****####*#%&ndash;          .:&ndash;&ndash;&ndash;==\n&quot;;       <br>
+cout&lt;&lt;&quot;                                         &ndash;&ndash;::=:.    .&ndash;&ndash;:.  +@+:.#=+::::==+&ndash;::#%+*#%%*==+*##::&ndash;+:\n&quot;;        <br>
+cout&lt;&lt;&quot;                                          :==%@@@%%#@@@@@%%@@@+&ndash;:::::::&ndash;%+.&ndash;#@%%%%%%@@@@@@*==:\n&quot;;          <br>
+cout&lt;&lt;&quot;                                              :=#@@@@%%%%%@@@@@@%#*+=====+#@@%%%%%%%@@*&ndash;.\n&quot;;               <br>
+cout&lt;&lt;&quot;           _______ _______ _______ _______          .%@%%%%%%@%#@@@@%%%%@@%%@@%%%%@@*         _______ _______ _______ _______\n&quot;;                  <br>
+cout&lt;&lt;&quot;          |   _   |    |  |_     _|_     _|            .#@@@%%%%%%%@@@@@@%%%%%%@%#*&ndash;         |   |   |   _   |_     _|   |   |\n&quot;;                  <br>
+cout&lt;&lt;&quot;          |       |       | |   |  _|   |_               .:#%@%%%%%%%%%%%%%@@*&ndash;.             |       |       | |   | |       |\n&quot;;                        <br>
+cout&lt;&lt;&quot;          |___|___|__|____| |___| |_______|                 #@%%%##%##%%%%@:                 |__|_|__|___|___| |___| |___|___|\n&quot;;                            <br>
+cout&lt;&lt;&quot;                                                          .*@@%%%%%%%%%%%@+\n&quot;;                              <br>
+cout&lt;&lt;&quot;                                                          #@@@@@%%%%%%%%@@*:\n&quot;;                            <br>
+cout&lt;&lt;&quot;                                                          %@%%%%%@@@@@@@%%%@%&ndash;\n&quot;;                          <br>
+cout&lt;&lt;&quot;                                                         +@@%%%%%@  @%%%%%%%*:\n&quot;;                        <br>
+cout&lt;&lt;&quot;                                                        :@@%%%%@     @%%%%%%%@%\n&quot;;                        <br>
+cout&lt;&lt;&quot;                                                        .@@%%%@      @%%%%%@@*\n&quot;;                        <br>
+cout&lt;&lt;&quot;                                                         :%@@@@@    @@%%%@@%+.\n&quot;;                         <br>
+cout&lt;&lt;&quot;                                                           #@@@@@@%#%@%#*&ndash;.\n&quot;;                                                                    <br>
+cout&lt;&lt;&quot;                                                               +%#=@@@&ndash;\n&quot;;                                                  <br>
+cout&lt;&lt;&quot;                             _______ __               __          .+@#           _______ __                 __ \n&quot;;              <br>
+cout&lt;&lt;&quot;                            |     __|  |_.&ndash;&ndash;&ndash;.&ndash;.&ndash;&ndash;&ndash;&ndash;.|  |_         &ndash;+           |   _   |  |&ndash;&ndash;.&ndash;&ndash;&ndash;&ndash;&ndash;.&ndash;&ndash;.&ndash;&ndash;.|  |_\n&quot;; <br>
+cout&lt;&lt;&quot;                       [1]  |__     |   _|  _  |   _||   _|                [3]  |       |  _  |  _  |  |  ||   _|\n&quot;;<br>
+cout&lt;&lt;&quot;                            |_______|____|___._|__|  |____|                     |___|___|_____|_____|_____||____|\n\n&quot;; <br>
+cout&lt;&lt;&quot;                               _______         __                                    _______         __ __ \n&quot;;  <br>
+cout&lt;&lt;&quot;                              |   |   |.&ndash;&ndash;&ndash;&ndash;&ndash;.|  |.&ndash;&ndash;&ndash;&ndash;&ndash;.                           |    ___|.&ndash;&ndash;.&ndash;&ndash;.|__|  |_\n&quot;;  <br>
+cout&lt;&lt;&quot;                       [2]    |       ||  &ndash;__||  ||  _  |                  [4]      |    ___||_   _||  |   _|\n&quot;; <br>
+cout&lt;&lt;&quot;                              |___|___||_____||__||   __|                           |_______||__.__||__|____|\n&quot;;<br>
+cout&lt;&lt;&quot;                                                  |__|\n&quot;;                               <br>
+cout&lt;&lt;&quot;\n\nPlease select a number to execute the program: &quot;;}<br>
+void Exit(){ <br>
+cout&lt;&lt;&quot;                                                                                   &ndash;:\n&quot;;                                 <br>
+cout&lt;&lt;&quot;                                                                                    #%+\n&quot;;                               <br>
+cout&lt;&lt;&quot;                                                                    &ndash;&ndash;&ndash;&ndash;             @%%&ndash;\n&quot;;                             <br>
+cout&lt;&lt;&quot;                                                            &ndash;&ndash;&ndash;&ndash;&ndash;                    @@%%=\n&quot;;                            <br>
+cout&lt;&lt;&quot;                                                                   .           :&ndash;::. %@@@@+\n&quot;;                           <br>
+cout&lt;&lt;&quot;                                            &ndash;&ndash;&ndash;                  :=&ndash;&ndash;=.        .&ndash;*%%@@@@@@@@@@%#*+&ndash;\n&quot;;                   <br>
+cout&lt;&lt;&quot;                                                 &ndash;&ndash;&ndash;           &ndash;&ndash;:=%@+:::.      .#@@@@@%%%%%%%%%%%+\n&quot;;                 <br>
+cout&lt;&lt;&quot;                           &ndash;&ndash;&ndash;&ndash;               &ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;            ..&ndash;%@@@%%%%+:    :@@@@%%%%%%%%%%%%#%:\n&quot;;               <br>
+cout&lt;&lt;&quot;                                     &ndash;                               =@@%%%%%%%#=  %@@@@@%%%%%%%%%%%%#%.\n&quot;;              <br>
+cout&lt;&lt;&quot;                                   &ndash;&ndash;         &ndash;&ndash;&ndash;           .:.     .=@@@@@@@%%%%%#@@@@@@@@%%%%%%%%%%%#+\n&quot;;              <br>
+cout&lt;&lt;&quot; &ndash;&ndash;                                                        =&ndash;:&ndash;####%@@%%%%%@@@@@@@@@@@@@*+*##%%%%%%%%%#*\n&quot;;              <br>
+cout&lt;&lt;&quot;                                        &ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;            =::&ndash;#%@@%%%%%%%%%%%%%%%@@@@@@*&ndash;:::::&ndash;======+=\n&quot;;              <br>
+cout&lt;&lt;&quot;                             &ndash;&ndash;&ndash;&ndash;            &ndash;&ndash;             .:.  :@%%%%%%%%%%%%%%%%@@@@@%=:::.+*&ndash;=:::=*\n&quot;;               <br>
+cout&lt;&lt;&quot;                                                                  .=%@@@@@@@@%%%%%%%%@@@@@#&ndash;:.&ndash;+&ndash;&ndash;::+= \n&quot;;               <br>
+cout&lt;&lt;&quot;                                  &ndash;&ndash;&ndash;     &ndash;     &ndash;*#%.             +%#####%%%%@@@%%%%#@@@@@@@#*+===+=.\n&quot;;                 <br>
+cout&lt;&lt;&quot;           &ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;                        &ndash;#%@@%@%:          &ndash;%@@%#%@@@%%%%%%%%%##%%+:&ndash;=++++=&ndash;.\n&quot;;                    <br>
+cout&lt;&lt;&quot;                                          =%@%=: +%@@* .=****%@@@@@@@%##%%%@@@@%%@#@%&ndash;\n&quot;;                               <br>
+cout&lt;&lt;&quot;                                          .=&ndash;&ndash;     =%%@@@@%%%%@@@@%%%%%%%#######@%%+&ndash;\n&quot;;                                 <br>
+cout&lt;&lt;&quot;                                                    :#@@@@%%%%%@@@@%%%%%%%%%%%%%=.\n&quot;;                                    <br>
+cout&lt;&lt;&quot;                                  &ndash;&ndash;&ndash;                 #@@%%%%%%%%%@@@%%%%%%%%%%%%%*=.\n&quot;;                                 <br>
+cout&lt;&lt;&quot;                              &ndash;&ndash;&ndash;&ndash;                    .%@@%%%%%%%*&ndash;:*@@%%%%%%%%%%%%%%#:\n&quot;;                               <br>
+cout&lt;&lt;&quot;                                                        :=+*+=&ndash;.     .*@@@@@@@%%@@%%%%%\n&quot;;                               <br>
+cout&lt;&lt;&quot;                                    &ndash;&ndash;&ndash;                                .*@@@@@@@@%%%%@*\n&quot;;                               <br>
+cout&lt;&lt;&quot;                                                    &ndash;&ndash;&ndash;                  .*@@@@@@@@@@@*         .\n&quot;;                     <br>
+cout&lt;&lt;&quot;                                                &ndash;&ndash;                          :=**####@@@%=    =%%=\n&quot;;                     <br>
+cout&lt;&lt;&quot;                                                                                    .=#@%#=+%@#.\n&quot;;                      <br>
+cout&lt;&lt;&quot;                                                                                       :%@@@%&ndash;\n&quot;;                        <br>
+cout&lt;&lt;&quot;                                               ...:::::::&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;##=::::::...\n&quot;;                 <br>
+cout&lt;&lt;&quot;                                                .......::::::::::::::::::::::::::::::::::::......\n\n&quot;; <br>
+cout&lt;&lt;&quot;\n                                 Thank you for using Anti&ndash;Math Ninjas lazy engineers. Good luck Dattebayo...\n\n\n\n\n&quot;; <br>
+} <br>
+void Menu(){ <br>
+cout&lt;&lt;&quot;                                                       .%&#39;                          .%@@@@%#+:,\n&quot;;          <br>
+cout&lt;&lt;&quot;                        =%*                           =@%&#39;                    .    %@@@@%===++*+.\n&quot;;   <br>
+cout&lt;&lt;&quot;                       #@%                          :%@@@%+.                .&ndash;    #@@@@#:        .              =#       &ndash;#\n&quot;;<br>
+cout&lt;&lt;&quot;                      &ndash;@@%                        ,+@@@@@@@#=              .=    .@@@%@*=                    :*@@@    ,&amp;@@*\n&quot;;<br>
+cout&lt;&lt;&quot;                      *@@@*.                &#39;++&amp;@@@@=@%$=@@@@@+.           *:    =@*   :@@@@@@#+&ndash;         &ndash;+=%@@@@@@@@@@@#\n&quot;;<br>
+cout&lt;&lt;&quot;                      #@*=*@#+.                +@@@@@#    @@@@%@@+.        @&ndash;   &ndash;@@*. .@@@@@@@@@@%         &#39;=#@@@@%%#*=.\n&quot;;  <br>
+cout&lt;&lt;&quot;                     .@@   @@@@#:                 =%@@%+=+%@@&#39;             @@:.@@@%###*+=&ndash;%@@@@@#.            .+@@.\n&quot;;      <br>
+cout&lt;&lt;&quot;                   .=@@@@@@#**%@@+                  :+@@@@#.               *@@%@@@@@=       .*@%&ndash;                :\n&quot;;     <br>
+cout&lt;&lt;&quot;               &ndash;*%@@@@%*=&#39;     :#@:                   :%@@&#39;                 .%@@@@@+.        +:\n&quot;; <br>
+cout&lt;&lt;&quot;                               +.                      %+                    .#%=        ,:&#39;&#39;\n&quot;;  <br>
+cout&lt;&lt;&quot;           [1] Taylor Serries Expansion        [2] Secant Method              [3]  Gauss Seidel                 [4] Back\n&quot;; <br>
+}<br>
+void Invalid(){ <br>
+cout&lt;&lt;&quot;                                                                   ..\n&quot;;                                                             <br>
+cout&lt;&lt;&quot;                                                                 :+##*:\n&quot;;                      <br>
+cout&lt;&lt;&quot;                                                                +######+\n&quot;;                     <br>
+cout&lt;&lt;&quot;                                                              :#########*:\n&quot;;                   <br>
+cout&lt;&lt;&quot;                                                             =############=\n&quot;;                  <br>
+cout&lt;&lt;&quot;                                                            +##############+\n&quot;;                <br>
+cout&lt;&lt;&quot;                                                          .*################*.\n&quot;;               <br>
+cout&lt;&lt;&quot;                                                         :######*======*######:\n&quot;;              <br>
+cout&lt;&lt;&quot;                                                        &ndash;#######+      +#######&ndash;\n&quot;;             <br>
+cout&lt;&lt;&quot;                                                       =########*      *########=\n&quot;;            <br>
+cout&lt;&lt;&quot;                                                      +##########      ##########+\n&quot;;           <br>
+cout&lt;&lt;&quot;                                                     +###########      ###########+\n&quot;;          <br>
+cout&lt;&lt;&quot;                                                    *############.    .############*\n&quot;;         <br>
+cout&lt;&lt;&quot;                                                   *#############:    :#############*\n&quot;;        <br>
+cout&lt;&lt;&quot;                                                  *##############&ndash;    &ndash;##############*\n&quot;;       <br>
+cout&lt;&lt;&quot;                                                 *###############=    =###############*\n&quot;;      <br>
+cout&lt;&lt;&quot;                                                *################*::::*################*\n&quot;;     <br>
+cout&lt;&lt;&quot;                                               *###################++###################*\n&quot;;    <br>
+cout&lt;&lt;&quot;                                              +##################:    :##################*\n&quot;;   <br>
+cout&lt;&lt;&quot;                                             +##################+      +##################+\n&quot;;  <br>
+cout&lt;&lt;&quot;                                            &ndash;####################&ndash;    &ndash;####################&ndash;\n&quot;; <br>
+cout&lt;&lt;&quot;                                           .#######################**#######################:\n&quot;;<br>
+cout&lt;&lt;&quot;                                           *################################################*\n&quot;;<br>
+cout&lt;&lt;&quot;                                           &ndash;=+***#######################################**+=&ndash;\n&quot;;<br>
+cout&lt;&lt;&quot;                                                       ..........................\n\n\n&quot;;<br>
+}<br>
+<br>
+void About(){ <br>
+cout&lt;&lt;&quot;                      _______         __   __      _______         __   __         _______ __         __\n&quot;;                <br>
+cout&lt;&lt;&quot;                     |   _   |.&ndash;&ndash;&ndash;&ndash;&ndash;.|  |_|__|    |   |   |.&ndash;&ndash;&ndash;.&ndash;.|  |_|  |&ndash;&ndash;.    |    |  |__|.&ndash;&ndash;&ndash;&ndash;&ndash;.|__|.&ndash;&ndash;&ndash;.&ndash;.&ndash;&ndash;&ndash;&ndash;&ndash;.\n&quot;;  <br>
+cout&lt;&lt;&quot;                     |       ||     ||   _|  |    |       ||  _  ||   _|     |    |       |  ||     ||  ||  _  |__ &ndash;&ndash;|\n&quot;;  <br>
+cout&lt;&lt;&quot;                     |___|___||__|__||____|__|    |__|_|__||___._||____|__|__|    |__|____|__||__|__||  ||___._|_____|\n&quot;;  <br>
+cout&lt;&lt;&quot;                                                                                                   |____|\n&quot;;               <br>
+}<br>
+void Help(){ <br>
+cout&lt;&lt;&quot;Get started with Ninja Code.\n\n&quot;;<br>
+cout&lt;&lt;&quot;Sample inputs\n\n&quot;;<br>
+cout&lt;&lt;&quot;Gauss Seidel Method\n&quot;;<br>
+cout&lt;&lt;&quot;Given equations:        Ways to input:\n\n&quot;;<br>
+cout&lt;&lt;&quot;x + y + z = a           1 2 3 4\n&quot;;<br>
+cout&lt;&lt;&quot;x + y + z = b     &gt;&gt;    5 6 7 8       or      1 2 3 4 5 6 7 8 9 1 2 3\n&quot;;<br>
+cout&lt;&lt;&quot;x + y + z = c           9 1 2 3&quot;;<br>
+}<br>
+void Taylor(){ <br>
+cout&lt;&lt;&quot;                   _______               __                  _______              __\n&quot;;<br>
+cout&lt;&lt;&quot;                  |_     _|.&ndash;&ndash;&ndash;.&ndash;.&ndash;&ndash;.&ndash;&ndash;.|  |.&ndash;&ndash;&ndash;&ndash;&ndash;.&ndash;&ndash;&ndash;&ndash;.    |     __|.&ndash;&ndash;&ndash;&ndash;&ndash;.&ndash;&ndash;&ndash;&ndash;.|__|.&ndash;&ndash;&ndash;&ndash;&ndash;.&ndash;&ndash;&ndash;&ndash;&ndash;.\n&quot;;<br>
+cout&lt;&lt;&quot;                    |   |  |  _  |  |  ||  ||  _  |   _|    |__     ||  &ndash;__|   _||  ||  &ndash;__|__ &ndash;&ndash;|\n&quot;;<br>
+cout&lt;&lt;&quot;                    |___|  |___._|___  ||__||_____|__|      |_______||_____|__|  |__||_____|_____|\n&quot;;<br>
+cout&lt;&lt;&quot;                                 |_____|\n&quot;;                                                                             <br>
+cout&lt;&lt;&quot;                               _______                                 __\n&quot;;             <br>
+cout&lt;&lt;&quot;                              |    ___|.&ndash;&ndash;.&ndash;&ndash;.&ndash;&ndash;&ndash;&ndash;&ndash;.&ndash;&ndash;&ndash;.&ndash;.&ndash;&ndash;&ndash;&ndash;&ndash;.&ndash;&ndash;&ndash;&ndash;&ndash;.|__|.&ndash;&ndash;&ndash;&ndash;&ndash;.&ndash;&ndash;&ndash;&ndash;&ndash;.\n&quot;;<br>
+cout&lt;&lt;&quot;                              |    ___||_   _|  _  |  _  |     |__ &ndash;&ndash;||  ||  _  |     |\n&quot;;<br>
+cout&lt;&lt;&quot;                              |_______||__.__|   __|___._|__|__|_____||__||_____|__|__|\n&quot;;<br>
+cout&lt;&lt;&quot;                                             |__|\n&quot;;                                      <br>
+}<br>
+void Secant(){<br>
+cout&lt;&lt;&quot;                  _______                          __        _______         __   __             __ \n&quot;;<br>
+cout&lt;&lt;&quot;                 |     __|.&ndash;&ndash;&ndash;&ndash;&ndash;.&ndash;&ndash;&ndash;&ndash;.&ndash;&ndash;&ndash;.&ndash;.&ndash;&ndash;&ndash;&ndash;&ndash;.|  |_     |   |   |.&ndash;&ndash;&ndash;&ndash;&ndash;.|  |_|  |&ndash;&ndash;.&ndash;&ndash;&ndash;&ndash;&ndash;.&ndash;&ndash;|  |\n&quot;;<br>
+cout&lt;&lt;&quot;                 |__     ||  &ndash;__|  __|  _  |     ||   _|    |       ||  &ndash;__||   _|     |  _  |  _  |\n&quot;;<br>
+cout&lt;&lt;&quot;                 |_______||_____|____|___._|__|__||____|    |__|_|__||_____||____|__|__|_____|_____|\n&quot;;<br>
+}<br>
+void Seidel(){<br>
+cout&lt;&lt;&quot;                     _______                               _______         __     __         __\n&quot;;<br>
+cout&lt;&lt;&quot;                    |     __|.&ndash;&ndash;&ndash;.&ndash;.&ndash;&ndash;.&ndash;&ndash;.&ndash;&ndash;&ndash;&ndash;&ndash;.&ndash;&ndash;&ndash;&ndash;&ndash;.    |     __|.&ndash;&ndash;&ndash;&ndash;&ndash;.|__|.&ndash;&ndash;|  |.&ndash;&ndash;&ndash;&ndash;&ndash;.|  |\n&quot;;<br>
+cout&lt;&lt;&quot;                    |    |  ||  _  |  |  |__ &ndash;&ndash;|__ &ndash;&ndash;|    |__     ||  &ndash;__||  ||  _  ||  &ndash;__||  |\n&quot;;<br>
+cout&lt;&lt;&quot;                    |_______||___._|_____|_____|_____|    |_______||_____||__||_____||_____||__|\n\n&quot;;<br>
+}<br>
+void bracket1(){<br>
+cout&lt;&lt;&quot; .&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;.&quot;;<br>
+}   <br>
+void bracket2(){<br>
+cout&lt;&lt;&quot; |&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;|\n&quot;;<br>
+} <br>
+void bracket3(){<br>
+cout&lt;&lt;&quot; &#39;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&#39;\n&quot;;<br>
+} <br>
+void smbracket1(){<br>
+cout&lt;&lt;&quot; .&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;.&quot;;<br>
+}   <br>
+void smbracket2(){<br>
+cout&lt;&lt;&quot; |&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;|\n&quot;;<br>
+} <br>
+void smbracket3(){<br>
+cout&lt;&lt;&quot; &#39;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&#39;\n&quot;;<br>
+} <br>
+void clr(){<br>
+cout&lt;&lt;&quot;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&quot;;<br>
+} <br>
+void clrs(){<br>
+cout&lt;&lt;&quot;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&quot;;<br>
+} <br>
+ <br>
+<br>
+<br>
+int main(){<br>
+float sma, smb, fa , fb, base1=1, base2=1, base11=1, base22=1, smx;<br>
+float x1=0, x2=0, x3=0, a=0, b=0, c=0, i=1, userlimit, blankcontainer;<br>
+<br>
+int x;<br>
+do{<br>
+Home();<br>
+    cin&gt;&gt;x;<br>
+switch (x){<br>
+    case 1:<br>
+    int submenu,sample;<br>
+        do{<br>
+        clr();<br>
+        Menu();<br>
+        clrs();<br>
+            cout&lt;&lt;&quot;Which mathematical topic do you want?  &ndash;&gt;&quot;;<br>
+                cin&gt;&gt;submenu;<br>
+            switch (submenu){<br>
+                case 1:<br>
+                    clr();<br>
+                    Taylor();<br>
+                    clrs();<br>
+                        cout&lt;&lt;&quot;Welcome to Taylor Serries Expansion\n&quot;;<br>
+                        cout&lt;&lt;&quot;Please enter the given equation&quot;;<br>
+                            cin&gt;&gt;submenu;<br>
+                break;<br>
+                     case 2:<br>
+                        clr();<br>
+                        Secant();<br>
+                        clrs();<br>
+                        cout&lt;&lt;&quot;Welcome to Secant Method\n&quot;;<br>
+                        int sm[4];<br>
+                        cout&lt;&lt;&quot;Please enter the coefficients, values are separated with a space.\n\n&quot;;<br>
+                        cout&lt;&lt;&quot;Example                  Your input\n&quot;;<br>
+                        cout&lt;&lt;&quot;2x^3 + 4x^5 + 6    &gt;&gt;    2 3 4 5 6\n&quot;&lt;&lt;&quot;\n\nYour input: &quot;;<br>
+                            for(int i=0; i&lt;5; i++){ <br>
+                                cin&gt;&gt;sm[i];<br>
+                            }<br>
+                        cout&lt;&lt;&quot;When a = &quot;;<br>
+                            cin&gt;&gt;sma;<br>
+                        cout&lt;&lt;&quot;and  b = &quot;;<br>
+                            cin&gt;&gt;smb;  <br>
+                                for(int i=0; i&lt;sm[1]; i++){<br>
+                                    base1=base1*sma; <br>
+                                }<br>
+                                    for(int i=0; i&lt;sm[3]; i++){<br>
+                                        base2=base2*sma; <br>
+                                    }<br>
+                        fa=(sm[0]*base1+sm[2]*base2)+sm[4];<br>
+                                        for(int i=0; i&lt;sm[1]; i++){<br>
+                                            base11=base11*smb; <br>
+                                        }<br>
+                                            for(int i=0; i&lt;sm[3]; i++){<br>
+                                                base22=base22*smb; <br>
+                                            }<br>
+                        fb=(sm[0]*base11+sm[2]*base22)+sm[4];<br>
+                        smx=sma&ndash;((fa*(smb&ndash;sma))/(fb&ndash;fa));<br>
+                        int sml;<br>
+                            cout&lt;&lt;&quot;How many iterations do you want?  &ndash;&gt;&quot;;<br>
+                                cin&gt;&gt;sml;<br>
+                        clr();<br>
+                        Secant();<br>
+                            cout&lt;&lt;&quot;\n\n\n\n Equations:\n &quot;&lt;&lt;sm[0]&lt;&lt;&quot;x^&quot;&lt;&lt;sm[1]&lt;&lt;&quot; + &quot;&lt;&lt;sm[2]&lt;&lt;&quot;x^&quot;&lt;&lt;sm[3]&lt;&lt;&quot; + &quot;&lt;&lt;sm[4]&lt;&lt;&quot;\n\n\n&quot;;<br>
+                        smbracket1();<br>
+                        cout&lt;&lt;&quot;\n |  Iteration  |    &quot;&lt;&lt;&quot;a        &quot;&lt;&lt;&quot;b      &quot;&lt;&lt;&quot;f(a)     &quot;&lt;&lt;&quot;f(b)      &quot;&lt;&lt;&quot;x&quot;&lt;&lt;&quot;   |\n&quot;;<br>
+                        smbracket2();<br>
+                        cout&lt;&lt;fixed &lt;&lt;setprecision(4);<br>
+                        cout&lt;&lt;&quot; |      1      | &quot;&lt;&lt;sma&lt;&lt;&quot;   &quot;&lt;&lt;smb&lt;&lt;&quot;   &quot;&lt;&lt;fa&lt;&lt;&quot;   &quot;&lt;&lt;fb&lt;&lt;&quot;   &quot;&lt;&lt;fixed &lt;&lt;setprecision(2)&lt;&lt;smx&lt;&lt;&quot;  |\n&quot;;<br>
+                            for (int x=2; x&lt;sml+2; x++){<br>
+                                base1=1,base2=1, base11=1, base22=1,  sma=smb, smb=smx;<br>
+                                    for(int i=0; i&lt;sm[1]; i++){<br>
+                                        base1=base1*sma; <br>
+                                    }<br>
+                                        for(int i=0; i&lt;sm[3]; i++){<br>
+                                            base2=base2*sma; <br>
+                                        }<br>
+                        fa=(sm[0]*base1+sm[2]*base2)+sm[4];<br>
+                            for(int i=0; i&lt;sm[1]; i++){<br>
+                                base11=base11*smb; <br>
+                            }<br>
+                                for(int i=0; i&lt;sm[3]; i++){<br>
+                                    base22=base22*smb; <br>
+                                }<br>
+                        fb=(sm[0]*base11+sm[2]*base22)+sm[4];<br>
+                        smx=sma&ndash;((fa*(smb&ndash;sma))/(fb&ndash;fa));<br>
+                        cout&lt;&lt;&quot; |      &quot;&lt;&lt;x&lt;&lt;&quot;      | &quot;&lt;&lt;fixed &lt;&lt;setprecision(4)&lt;&lt;sma&lt;&lt;&quot;   &quot;&lt;&lt;smb&lt;&lt;&quot;   &quot;&lt;&lt;fa&lt;&lt;&quot;   &quot;&lt;&lt;fb&lt;&lt;&quot;   &quot;&lt;&lt;fixed &lt;&lt;setprecision(2)&lt;&lt;smx&lt;&lt;&quot;  |\n&quot;;<br>
+                        }<br>
+                        smbracket3();<br>
+                        cout&lt;&lt;&quot;\n\n&quot;;<br>
+                        smbracket1();<br>
+                        cout&lt;&lt;&quot;\n |           After &quot;&lt;&lt;sml&lt;&lt;&quot; iterations, the root is &quot;&lt;&lt;smx&lt;&lt;&quot;.         |                    Press enter to continue...\n&quot;;<br>
+                        smbracket3();<br>
+                            cin.ignore();<br>
+                            cin.get();<br>
+                                break;<br>
+                                    case 3:<br>
+                                    clr();<br>
+                                    Seidel();<br>
+                                    clrs();<br>
+                                    cout&lt;&lt;&quot;Welcome to Gauss Seidel Method\n&quot;;<br>
+                                    int eq[3][4];<br>
+                                    cout&lt;&lt;&quot;Please enter the coefficients, values are separated with a space.\n\n&quot;;<br>
+                                    cout&lt;&lt;&quot;Example               Your Input\n&quot;;<br>
+                                    cout&lt;&lt;&quot;1x + 2y + 3z = 4          1 2 3 4  &ndash;&gt;hit enter\n&quot;;<br>
+                                    cout&lt;&lt;&quot;5x + 6y + 7z = 8    &gt;&gt;    5 6 7 8  &ndash;&gt;hit enter     or      1 2 3 4 5 6 7 8 9 1 2 3    &ndash;&gt;hit enter\n&quot;;<br>
+                                    cout&lt;&lt;&quot;9x + 1y + 2z = 3          9 1 2 3  &ndash;&gt;hit enter&quot;&lt;&lt;&quot;\n\nYour input:\n&quot;;<br>
+                                        for (int x=0; x&lt;3; x++){ <br>
+                                            for (int y=0; y&lt;4; y++){<br>
+                                                cin &gt;&gt; eq[x][y];<br>
+                                            }<br>
+                                        }<br>
+                                    cout&lt;&lt;&quot;How many iterations do you want?  &ndash;&gt;&quot;;<br>
+                                        cin&gt;&gt;userlimit;<br>
+                                    clr();<br>
+                                    Seidel();<br>
+                                    cout&lt;&lt;&quot;\n\n\n\n Equations:\n &quot;&lt;&lt;eq[0][0]&lt;&lt;&quot;x1 + &quot;&lt;&lt;eq[0][1]&lt;&lt;&quot;y1 + &quot;&lt;&lt;eq[0][2]&lt;&lt;&quot;z1 = &quot;&lt;&lt;eq[0][3]&lt;&lt;&quot;\n&quot;;<br>
+                                    cout&lt;&lt;&quot; &quot;&lt;&lt;eq[1][0]&lt;&lt;&quot;x2 + &quot;&lt;&lt;eq[1][1]&lt;&lt;&quot;y2 + &quot;&lt;&lt;eq[1][2]&lt;&lt;&quot;z2 = &quot;&lt;&lt;eq[1][3]&lt;&lt;&quot;\n&quot;;<br>
+                                    cout&lt;&lt;&quot; &quot;&lt;&lt;eq[2][0]&lt;&lt;&quot;x3 + &quot;&lt;&lt;eq[2][1]&lt;&lt;&quot;y3 + &quot;&lt;&lt;eq[2][2]&lt;&lt;&quot;z3 = &quot;&lt;&lt;eq[2][3]&lt;&lt;&quot;\n\n&quot;;<br>
+                                    bracket1();<br>
+                                    cout&lt;&lt;&quot;\n |  Iteration  |     &quot;&lt;&lt;&quot;x1         &quot;&lt;&lt;&quot;x2        &quot;&lt;&lt;&quot;x3      |\n&quot;;<br>
+                                    bracket2();<br>
+                                    cout&lt;&lt;&quot; |      &quot;&lt;&lt;i&lt;&lt;fixed &lt;&lt;setprecision(4)&lt;&lt;&quot;      |   &quot;&lt;&lt;x1&lt;&lt;&quot;     &quot;&lt;&lt;x2&lt;&lt;&quot;    &quot;&lt;&lt;x3&lt;&lt;&quot;    |\n&quot;;<br>
+                                        for(int i=2; i&lt;userlimit+1; i++){<br>
+                                            x1=(eq[0][3]+(eq[0][1]*b*&ndash;1)+(eq[0][2]*c*&ndash;1))/eq[0][0];<br>
+                                                a=x1;<br>
+                                            x2=(eq[1][3]+(eq[1][0]*a*&ndash;1)+(eq[1][2]*c*&ndash;1))/eq[1][1];<br>
+                                                b=x2;<br>
+                                            x3=(eq[2][3]+(eq[2][0]*a*&ndash;1)+(eq[2][1]*b*&ndash;1))/eq[2][2];<br>
+                                                c=x3;<br>
+                                    cout&lt;&lt;&quot; |      &quot;&lt;&lt;i&lt;&lt;&quot;      |   &quot;&lt;&lt;x1&lt;&lt;&quot;    &quot;&lt;&lt;x2&lt;&lt;&quot;    &quot;&lt;&lt;x3&lt;&lt;&quot;    |\n&quot;;<br>
+                                    }   <br>
+                                    bracket3();<br>
+                                    cout&lt;&lt;fixed &lt;&lt;setprecision(0);<br>
+                                    bracket1();<br>
+                                    cout&lt;&lt;&quot;\n |             Sequences converges at:            |\n&quot;;<br>
+                                    cout&lt;&lt;&quot; |         x1 = &quot;&lt;&lt;x1&lt;&lt;&quot;  |  x2 = &quot;&lt;&lt;x2&lt;&lt;&quot;  |  x3 = &quot;&lt;&lt;x3&lt;&lt;&quot;          |                      Press enter to continue...\n&quot;;<br>
+                                    bracket3();<br>
+                                        cin.ignore();<br>
+                                        cin.get();<br>
+                                            break;<br>
+                                                case 4:<br>
+                                                    clr();<br>
+                                                        break;<br>
+                                                            default:<br>
+                                                                clr();<br>
+                                                                Invalid();<br>
+                                                                cout&lt;&lt;&quot;                                                    Invalid input, please try again...\n\n\n\n\n\n&quot;; <br>
+                                                                    cin.ignore();<br>
+                                                                    cin.get();<br>
+                                                                Menu();  <br>
+            }   <br>
+        }<br>
+        while (submenu!=4);<br>
+        break;<br>
+        case 2:<br>
+            clr();<br>
+            Help();<br>
+            clrs();<br>
+            cout&lt;&lt;&quot;Hit enter to continue...&quot;;<br>
+                cin.ignore();<br>
+                cin.get();<br>
+                break;<br>
+            case 3:<br>
+                clr();<br>
+                About();<br>
+                clrs();<br>
+                cout&lt;&lt;&quot;Hit enter to continue...&quot;;<br>
+                    cin.ignore();<br>
+                    cin.get();<br>
+                    break;<br>
+                case 4:<br>
+                    clr();<br>
+                    Exit();<br>
+                        break;<br>
+                    default:<br>
+                        clr();<br>
+                        Invalid();<br>
+                        cout&lt;&lt;&quot;                                                    Invalid input, please try again...\n\n\n\n\n\n&quot;; <br>
+                            cin.ignore();<br>
+                            cin.get();<br>
+                            Home();<br>
+        }<br>
+}<br>
+while (x!=4);<br>
+<br>
+return 0;<br>
+}</body></html>
