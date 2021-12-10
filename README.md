@@ -3,3 +3,4 @@ taylor series expansion
 secant method
 gauss seidel 
 
+ 
