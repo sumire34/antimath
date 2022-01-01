@@ -334,8 +334,7 @@ switch (x){
                     cout<<" |                                                                                          |\n";
                     cout<<" |                                                                                          |\n";
                     cout<<" |    "<<tsclone[0]<<"x^"<<tsclone[1]<<" + "<<tsclone[2]<<"x^"<<tsclone[3]<<" + "<<tsclone[4]<<" = f("<<tsx<<") + f'("<<tsx<<")"<<"(x-"<<tsx<<") + f''("<<tsx<<")/2!(x-"<<tsx<<")^2 + f'''("<<tsx<<")/3!(x-"<<tsx<<")^3 + ...    |\n";
-                    cout<<" |                      = "<<tsclone[0]*fspw1+tsclone[2]*fspw2+tsclone[4]<<" + "<<dstorage[1]<<"(x-"<<tsx<<") + "<<dstorage[2]/2<<"(x-"<<tsx<<")^2 + "<<dstorage[3]/6<<"(x-"<<tsx<<")^3 + ...                       |           "<<" Press enter to continue...\n";  
-                    cout<<" |                      = expand Zzz                                                        |\n";
+                    cout<<" |                      = "<<tsclone[0]*fspw1+tsclone[2]*fspw2+tsclone[4]<<" + "<<dstorage[1]<<"(x-"<<tsx<<") + "<<dstorage[2]/2<<"(x-"<<tsx<<")^2 + "<<dstorage[3]/6<<"(x-"<<tsx<<")^3 + ...                       |           "<<" Press enter to continue...\n";
                     cout<<" '------------------------------------------------------------------------------------------'\n";
                     cin.ignore();
                     cin.get();        
