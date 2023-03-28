@@ -5,10 +5,4 @@
                                                                                                    
                                                                                                    
                        $sudo git clone https://github.com/lanaya-f/antimath
-
-                    College of Engineering, Computer Studies, and Architecture
-                          Final project for Numerical Methods (NMTLO1E)
-                             Presented to Engr. Shiela Marie Pelayo
-                             
-                             
                                         lanaya-f x joy
